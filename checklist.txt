@@ -1,0 +1,4 @@
+Configura a font a ser utilizada
+  - Baixar a fonte no site https://google-webfonts-helper.herokuapp.com/fonts
+  - Colocar as fontes dentro da pasta fonts em public
+  - Adiciona a @font-face da font selecionada no global.ts em src/styles

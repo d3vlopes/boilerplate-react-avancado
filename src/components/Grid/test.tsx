@@ -1,4 +1,4 @@
-import { renderWithTheme } from 'utils/tests/helpers'
+import { renderWithTheme } from 'utils/test/helpers'
 
 import { Grid } from '.'
 

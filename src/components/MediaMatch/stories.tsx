@@ -3,7 +3,7 @@ import MediaMatch from '.'
 
 export default {
   title: 'MediaMatch',
-  component: MediaMatch
+  component: MediaMatch,
 } as Meta
 
 export const Desktop: Story = () => (
@@ -16,6 +16,6 @@ export const Mobile: Story = () => (
 Mobile.parameters = {
   // Já carrega o componente na tela mobile
   viewport: {
-    defaultViewport: 'mobile1'
-  }
+    defaultViewport: 'mobile1',
+  },
 }

@@ -11,3 +11,10 @@ Configurar o arquivo src/pages/_app.tsx com as informações do projeto ()
 Configurar o componente Container ()
 
 Configurar o componente Grid se for necessário ()
+
+Criar uma copia de .env.development e adicionar os valores
+
+Verificar no package.json se o caminho para o --endpoint está correto
+
+Se estiver utilizando o Strapi adicionar o arquivo convertToNonNull.js
+para não deixar valores null

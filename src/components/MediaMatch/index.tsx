@@ -16,7 +16,7 @@ const mediaMatchModifiers = {
 
   greaterThan: (size: breakpoint) => css`
     ${media.greaterThan(size)` display: block `}
-  `
+  `,
 }
 
 export default styled.div<MediaMatchProps>`

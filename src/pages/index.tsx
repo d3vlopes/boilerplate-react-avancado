@@ -18,6 +18,7 @@ export async function getServerSideProps() {
   return {
     props: {
       // data: data,
+      // Se existir algo no cache, ele pega
       // initialApolloState: apolloClient.cache.extract(),
     },
   }

@@ -16,12 +16,8 @@
     "types:generate": "yarn schema:download && yarn schema:convert && yarn codegen",
     "generate": "yarn plop --plopfile generators/plopfile.js",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook -s ./public"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "build-storybook": "build-storybook -s ./public",
+    "postinstall": "husky install"
   },
   "lint-staged": {
     "src/**/*": [

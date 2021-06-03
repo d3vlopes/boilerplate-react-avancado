@@ -16,12 +16,8 @@
     "types:generate": "yarn schema:download && yarn schema:convert && yarn codegen",
     "generate": "yarn plop --plopfile generators/plopfile.js",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook -s ./public"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "build-storybook": "build-storybook -s ./public",
+    "postinstall": "husky install"
   },
   "lint-staged": {
     "src/**/*": [
@@ -54,7 +50,7 @@
     "@types/react": "^17.0.4",
     "@types/styled-components": "^5.1.9",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
-    "@typescript-eslint/parser": "^4.20.0",
+    "@typescript-eslint/parser": "^4.26.0",
     "apollo": "^2.33.2",
     "babel-loader": "^8.2.2",
     "babel-plugin-styled-components": "^1.12.0",

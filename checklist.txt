@@ -18,3 +18,6 @@ Verificar no package.json se o caminho para o --endpoint está correto
 
 Se estiver utilizando o Strapi adicionar o arquivo convertToNonNull.js
 para não deixar valores null
+
+
+Configurar o arquivo manifest em public/manifest.json

@@ -10,7 +10,7 @@ const GlobalStyles = createGlobalStyle`
         url('/fonts/poppins-v15-latin-300.woff2') format('woff2')
     }
   */
- 
+
 
   * {
     margin: 0;
@@ -23,6 +23,12 @@ const GlobalStyles = createGlobalStyle`
   ${({ theme }) => css`
     html {
       font-size: 62.5%;
+    }
+
+    html,
+    body,
+    #__next {
+      height: 100%;
     }
 
     body {

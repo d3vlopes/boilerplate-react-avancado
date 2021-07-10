@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "next": "10.2.3",
-    "@apollo/client": "^3.3.19",
+    "@apollo/client": "^3.3.20",
     "dotenv": "^10.0.0",
     "graphql": "^15.5.0",
     "next-pwa": "^5.2.21",
@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.14.5",
-    "@babel/preset-typescript": "^7.12.7",
+    "@babel/preset-typescript": "^7.14.5",
     "@storybook/addon-essentials": "6.2.9",
     "@storybook/react": "6.2.9",
     "@testing-library/jest-dom": "^5.14.1",
@@ -50,7 +50,7 @@
     "@types/styled-components": "^5.1.9",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.26.1",
-    "apollo": "^2.33.2",
+    "apollo": "^2.33.4",
     "babel-loader": "^8.2.2",
     "babel-plugin-styled-components": "^1.12.0",
     "eslint": "^7.28.0",

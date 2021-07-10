@@ -4,7 +4,7 @@ import { ApolloProvider } from '@apollo/client'
 import { ThemeProvider } from 'styled-components'
 
 import GlobalStyles from 'styles/global'
-import theme from 'styles/theme'
+import theme from 'styles/themes/default'
 import { useApollo } from 'utils/apollo'
 
 function App({ Component, pageProps }: AppProps) {
